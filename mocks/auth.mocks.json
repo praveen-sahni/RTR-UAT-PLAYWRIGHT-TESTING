@@ -1,0 +1,63 @@
+{
+  "unregisteredUser": {
+    "success": "0",
+    "errorMessage": "Mobile number not registered"
+  },
+  "duplicateUser": {
+    "success": "0",
+    "errorMessage": "Account already created. Please sign into your account."
+  },
+  "otpSentSuccess": {
+    "success": "1",
+    "successMessage": "OTP sent successfully",
+    "result": [{ "display_name": "Praveen", "email_id": "test@rtr.money" }]
+  },
+  "invalidOtp": {
+    "success": "0",
+    "errorMessage": "Invalid OTP. Please try again."
+  },
+  "loginSuccessExistingUser": {
+    "success": "1",
+    "successMessage": "Login successful",
+    "result": [
+      {
+        "userId": "9999",
+        "display_name": "PRAVEEN SAHNI",
+        "email_id": "test@rtr.money",
+        "accessToken": "mocked-jwt-token",
+        "secondary_key": "sec-123",
+        "mobile_number": "9999999999"
+      }
+    ]
+  },
+  "loginSuccessNewUser": {
+    "success": "1",
+    "successMessage": "MPIN not generated",
+    "result": [
+      {
+        "userId": "8888",
+        "display_name": "NEW USER",
+        "email_id": "new@rtr.money",
+        "accessToken": "mocked-jwt-token-new",
+        "secondary_key": "sec-456",
+        "mobile_number": "9999900000"
+      }
+    ]
+  },
+  "invalidMpin": {
+    "success": "0",
+    "errorMessage": "Incorrect MPIN. Please try again."
+  },
+  "saveMpinSuccess": {
+    "success": "1",
+    "successMessage": "MPIN saved successfully",
+    "result": [
+      {
+        "userId": "8888",
+        "display_name": "NEW USER",
+        "accessToken": "mocked-jwt-token-new",
+        "secondary_key": "sec-456"
+      }
+    ]
+  }
+}
